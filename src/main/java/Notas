@@ -1,0 +1,11 @@
+Control de accesos a un proxy
+
+Hay que hacer una aplicación para controlar quién tiene acceso a un proxy
+los usuarios se identifican con login y password
+Hay que hacer una aplicación JPA para gestionar este control
+
+1. Crear entidad Usuario
+2. Crear repository para acceder a esta entidad
+3. Crear aplicación (CommandLineRunner) para probarlo
+3.1 Crear varios usuarios
+3.2 Probar acceso de usuarios (algunos que existan y otros que no). Escribir al log usuario .... Tiene acceso / No tiene acceso
